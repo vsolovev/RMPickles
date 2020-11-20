@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMPickles.Core", "RMPickles.Core\RMPickles.Core.csproj", "{2A6D8FAC-BA05-4716-80FF-16FE0AD174DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pickles", "Pickles\Pickles.csproj", "{38BAD6E0-78AB-4AC3-91A8-BF72AF5EE394}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMPickles.ObjectModel", "RMPickles.ObjectModel\RMPickles.ObjectModel.csproj", "{8199111D-C9C5-480F-83F8-15599853C947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMPickles.TestFrameworks", "RMPickles.TestFrameworks\RMPickles.TestFrameworks.csproj", "{F7F41513-761C-43DE-B0A7-91E417DA8FFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMPickles.Core.DocumentationBuilders.Html", "RMPickles.DocumentationBuilders.Html\RMPickles.Core.DocumentationBuilders.Html.csproj", "{6081AC57-F9D6-4BBC-A397-ED2C242A1422}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMPickles.Console", "RMPickles.Console\RMPickles.Console.csproj", "{61EDAC00-4BB2-42C6-9FD1-E5219AF0461A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A6D8FAC-BA05-4716-80FF-16FE0AD174DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A6D8FAC-BA05-4716-80FF-16FE0AD174DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A6D8FAC-BA05-4716-80FF-16FE0AD174DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A6D8FAC-BA05-4716-80FF-16FE0AD174DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38BAD6E0-78AB-4AC3-91A8-BF72AF5EE394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38BAD6E0-78AB-4AC3-91A8-BF72AF5EE394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38BAD6E0-78AB-4AC3-91A8-BF72AF5EE394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38BAD6E0-78AB-4AC3-91A8-BF72AF5EE394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8199111D-C9C5-480F-83F8-15599853C947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8199111D-C9C5-480F-83F8-15599853C947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8199111D-C9C5-480F-83F8-15599853C947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8199111D-C9C5-480F-83F8-15599853C947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7F41513-761C-43DE-B0A7-91E417DA8FFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F41513-761C-43DE-B0A7-91E417DA8FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F41513-761C-43DE-B0A7-91E417DA8FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F41513-761C-43DE-B0A7-91E417DA8FFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6081AC57-F9D6-4BBC-A397-ED2C242A1422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6081AC57-F9D6-4BBC-A397-ED2C242A1422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6081AC57-F9D6-4BBC-A397-ED2C242A1422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6081AC57-F9D6-4BBC-A397-ED2C242A1422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61EDAC00-4BB2-42C6-9FD1-E5219AF0461A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61EDAC00-4BB2-42C6-9FD1-E5219AF0461A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61EDAC00-4BB2-42C6-9FD1-E5219AF0461A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61EDAC00-4BB2-42C6-9FD1-E5219AF0461A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {238D6166-6E82-43AE-B86E-F2A1C1D41B86}
+	EndGlobalSection
+EndGlobal

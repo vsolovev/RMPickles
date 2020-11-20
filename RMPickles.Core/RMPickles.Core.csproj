@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.0.0" />
+    <PackageReference Include="FeatureSwitcher" Version="2.1.0" />
+    <PackageReference Include="gherkin" Version="6.0.0" />
+    <PackageReference Include="NLog" Version="4.7.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RMPickles.DocumentationBuilders.Html\RMPickles.Core.DocumentationBuilders.Html.csproj" />
+    <ProjectReference Include="..\RMPickles.ObjectModel\RMPickles.ObjectModel.csproj" />
+    <ProjectReference Include="..\RMPickles.TestFrameworks\RMPickles.TestFrameworks.csproj" />
+  </ItemGroup>
+
+</Project>

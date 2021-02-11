@@ -14,12 +14,12 @@ namespace RMPickles.Console
         private static readonly Logger Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType.Name);
         static void Main(string[] args)
         {
-            args = new string[]
+            /*args = new string[]
             {
                 @"--feature-directory=c:\Users\HyDrA\Desktop\Pick\Features",
                 @"--output-directory=c:\Users\HyDrA\Desktop\Pick\FeaturesOutput",
                 @"--resource-directory=C:/Users/HyDrA/Desktop/Pick/Resources"
-            };
+            };*/
             var builder = new ContainerBuilder();
             builder.RegisterAssemblyTypes(typeof(Runner).Assembly);            
             builder.RegisterModule<PicklesModule>();

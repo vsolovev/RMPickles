@@ -70,7 +70,10 @@ namespace RMPickles.Core.DocumentationBuilders.Html
                 preElement.Add(comment);
                 baseElement.Add(preElement);
                 
-                dict.Add(stepComment.Summary, baseElement);
+                if (!dict.ContainsKey(stepComment.Summary))
+                {
+                    dict.Add(stepComment.Summary, baseElement);
+                }                
             }
             
 
